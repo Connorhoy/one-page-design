@@ -15,15 +15,62 @@
     <h1><a href="#">Primal Coffee</a></h1>
     <nav>
       <ul>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#about">About Us</a></li>
       </ul>
     </nav>
   </div>
-  <!-- Main Content -->
+  <!-- Page Centered Header -->
 <div class="section">
   <h1 id="since-2018">Making Great Coffee Since 2018<h1>
 </div>
+
+<!-- Main Content Begins -->
+<div class="wrapper">
+  <div class="section2">
+    <div class="about" id="about">
+      <h2>About Us..</h2>
+      <p>Primal Coffee was founded in 2018 with the intent of creating the best coffee in the greater CLT-metro area. Our mission has always been to supply our customers with knock-your-socks off service and great coffee from our unique cafe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, labore cumque. Odit perspiciatis illo amet animi commodi maiores corporis! Tenetur, exercitationem iusto! Sunt repellendus laborum beatae quasi est. Fugit, quae.
+      </p>
+    </div>
+  </div>
+  <hr>
+    <div class="section3">
+      <div class="news" id="news">
+        <h2>News..</h2>
+        <h3>New Blend</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quisquam sequi nobis quaerat quam voluptatum odio soluta velit corporis ipsa iure aspernatur suscipit libero itaque hic illo, fuga doloremque saepe?</p>
+        <h3>New Location in Davidson</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda corrupti at quia doloremque nostrum a, reprehenderit doloribus repellat, adipisci voluptate quae! Tenetur, quia nemo odit sed ratione eligendi perferendis delectus.</p>
+        <h3>New Pastries</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, quae, ex neque dolores quaerat laborum voluptatum, accusantium magni voluptatem rerum obcaecati dolor iusto natus deleniti. Libero nostrum vel in molestias.</p>
+      </div>
+    </div>
+</div>
+  <!-- Contact Form -->
+  <div class="container" id="contact">
+    <h2>Contact Form</h2>
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
 </body>
 </html>

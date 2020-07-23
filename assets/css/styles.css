@@ -1,13 +1,15 @@
 /* Google fonts. */
 html {
-  font-family: 'Special Elite', 'Oswald'
+  font-family: 'Oswald'
 }
 
 body {
   background-image: url(../images/cafe-background.jpg);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
+  padding: 0;
+  margin: 0;
 }
 
 /* Header CSS Begins */
@@ -62,16 +64,85 @@ li a:hover {
 }
 /* Navbar CSS Ends */
 
-/* Section Content Begins */
-
+/* Section 1 Content Begins */
 .section {
   width: 940px;
   margin: 0 auto;
-  height: 40vh;
+  height: 30vh;
+}
+
+.section h1 {
+  text-align: center;
+  margin-top: 150px;
 }
 
 #since-2018 {
   font-size: 50px;
   color: white;
   text-shadow: 2px 2px #333;
+}
+/* Section 1 Content Ends */
+
+.wrapper {
+  background-color: #131313;
+  height: 66vh;
+  color: white;
+  letter-spacing: 3px;
+}
+
+/* Section 2 Content Begins (About Us..) */
+.about {
+  padding: 10px;
+}
+
+.about h2 {
+  margin-left: 30px;
+}
+
+.about p {
+  margin-left: 30px;
+  font-family: 'Osawld';
+  font-size: 20px;;
+}
+/* Section 2 Content Ends */
+
+/* Section 3 Content Begins (News) */
+.news h2, h3 {
+  margin-left: 30px;
+}
+
+.news p {
+  margin-left: 30px;
+  font-family: 'Osawld';
+  font-size: 20px;;
+}
+/* Section 3 Content Ends */
+
+/* Section 4 Content Begins (Contact Form) */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #333;
+  font-family: 'Oswald';
 }
