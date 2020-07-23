@@ -90,6 +90,12 @@ li a:hover {
   letter-spacing: 3px;
 }
 
+@media screen and (min-width: 900px) {
+  .wrapper {
+    padding-bottom: 90px;
+  }
+}
+
 /* Section 2 Content Begins (About Us..) */
 .about {
   padding: 10px;
@@ -146,3 +152,4 @@ input[type=submit]:hover {
   background-color: #333;
   font-family: 'Oswald';
 }
+/* Section 4 Content Ends */
