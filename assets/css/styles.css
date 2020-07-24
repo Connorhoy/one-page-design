@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding: 0;
+  padding-top: 1px;
   margin: 0;
 }
 
@@ -16,6 +16,10 @@ body {
 #header {
   display: flex;
   justify-content: space-between;
+  background:rgba(255, 255, 255, 0.3);
+  position: fixed;
+  right: 0;
+  left: 0;   
 }
 
 #header a {
@@ -25,7 +29,7 @@ body {
 #header h1 {
   font-size: 3vw;
   margin-left: 100px;
-  margin-top: 30px;
+  margin-top: 20px;
   display: inline-block;
 }
 
@@ -73,7 +77,7 @@ li a:hover {
 
 .section h1 {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 350px;
 }
 
 #since-2018 {
